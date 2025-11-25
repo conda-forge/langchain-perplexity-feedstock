@@ -1,6 +1,6 @@
 context:
   name: langchain-perplexity
-  version: 1.0.0
+  version: "1.1.0"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/langchain_perplexity-${{ version }}.tar.gz
-  sha256: 11f57f0438b59952b337eeaaf89bdf343fd464d7e6b5be7ecf7dedf93c8d1a74
+  sha256: c8e655d0e0dfebfbaa8e028ecd0695f6bb73d030930ac2f07b4bb35fedc178dd
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - langchain-core >=1.0.0,<2.0.0
+    - langchain-core >=1.1.0,<2.0.0
     - openai >=2.0.0,<3.0.0
 
 tests:
