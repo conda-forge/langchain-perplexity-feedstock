@@ -1,6 +1,6 @@
 context:
   name: langchain-perplexity
-  version: "1.3.1"
+  version: "1.3.2"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/langchain_perplexity-${{ version }}.tar.gz
-  sha256: f9c0e2cf24a636d4bf90ac46e0c36cfe506b7f83f08d181c80a57194068f54e6
+  sha256: b806e62ccabc5dfc385c7afeee05a48b32c2553505227e92807053389e8f70c9
 
 build:
   number: 0
