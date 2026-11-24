@@ -1,7 +1,6 @@
 context:
   name: langchain-perplexity
   version: "1.5.0"
-  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -24,7 +23,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - langchain-core >=1.6.12,<2.0.0
-    - perplexityai >=0.34.1,<1.0.0
+    - perplexityai >=0.34.1
 
 tests:
   - python:
